@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- ******************************************************************************************************** -->
+    <!-- Inclusion de script con la libreria d3js -->
+    <!-- ******************************************************************************************************** -->
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+
+    <link rel="stylesheet" href="estilos.css" />
+    <!-- Inserción de gráficos -->
+    <script src="grafico_1.js"></script>
+    <script src="grafico_2.js"></script>
+  </head>
+
+  <body>
+      <div id="contenedor-header">
+        <img src="https://www.unir.net/wp-content/uploads/2019/11/Unir_2021_logo.svg" width="250" height="100"/>
+      </div>
+      <!-- ******************************************************************************************************** -->
+
+      <div id="contenedor-graficos">
+        <center> <h2>Actividad Grupal: Análisis tendencias en D3.js</h2> </center>
+        <article>
+
+          Crear una visualización interactiva en D3.js que permita analizar tendencias presentes en cualquiera de los ámbitos
+          recogidos en epData: población, deuda pública, empleo, crimen, vivienda, pensiones, estimación de voto, accidentes de
+          tráfico, etc…
+          También podéis escoger cualquier otra fuente de datos local de vuestra ciudad o país. En la visualización podrán existir
+          una o más gráficas y se incorporarán todos aquellos elementos (leyendas, tooltips, animaciones, escalas de tamaños,
+          colores, gestión de eventos…) que contribuyan a un mejor entendimiento de las variables seleccionadas.
+
+        </article>
+        <h2>Cruces fronterizos desde Ucrania desde el 24 de febrero de 2022</h2>
+        <div id="graficos">
+          
+          <!-- Insertar grafico_1 -->
+            <div id=div_grafico_tipo_1>      <!-- Etiqueta llamando a css -->
+              <!-- Grafico 1 D3 será agregados desde JavaScript "grafico1.js"-->
+            </div>
+            <div>
+              <center><i><b>Datos tomados de:</b> Agencia de Datos, 
+                <a href="https://www.epdata.es/refugiados-ucranianos-huido-guerra-rusia/fc5de9dc-3fe0-4cf3-8d89-dde1085c15cb?accion=2">
+                  Cruces fronterizos desde Ucrania desde el 24 de febrero de 2022
+                </a></i></center><br>
+            </div>
+
+
+          <div>
+            <h2>Refugiados ucranianos registrados en cada país europeo por la invasión rusa</h2>
+            <center>
+              <!-- Insertar grafico_2 -->
+              <div id=barchart></div>
+              <i><b>Datos tomados de:</b> Agencia de Datos, 
+              <a href="https://www.epdata.es/refugiados-ucranianos-registrados-cada-pais/2dc0eb49-934c-474d-a327-5d7fa45bf10f">
+                Refugiados ucranianos registrados en cada país europeo por la invasión rusa
+              </a></i></center>
+          </div>
+        </div>
+      </div>
+    <!-- ******************************************************************************************************** -->
+    <footer>
+      <br>
+      <center>
+      <div id="contenedor-footer">
+          <!-- Espacio para mostrar datos de integrantes del grupo -->
+          <img src="https://www.unir.net/wp-content/uploads/2019/11/Unir_2021_logo.svg" width="150" height="50"/>
+          <br><h3>INTEGRANTES TRABAJO GRUPAL</h3>
+          <p>Burgos Peña, Angel<br>
+            <a style="color: red" href="mailto:angel.burgos219@comunidadunir.net">angel.burgos219@comunidadunir.net</a>
+          </p>
+          <p>Elizalde Rodríguez, Jimmy<br>
+            <a style="color: red" href="mailto:jimmyfernando.elizalde044@comunidadunir.net">jimmyfernando.elizalde044@comunidadunir.net</a>
+          </p>
+          <p>Lucero Alvarez, Carlos<br>
+            <a style="color: red" href="mailto:carlos.lucero042@comunidadunir.net">carlos.lucero042@comunidadunir.net</a>
+          </p>
+          <p>Rivas Gracia, Bryan<br>
+            <a style="color: red" href="bryanisaac.rivas032@comunidadunir.net">bryanisaac.rivas032@comunidadunir.net</a>
+        </p>
+      </div>
+      </center>  
+    </footer>
+  </body>
+</html>

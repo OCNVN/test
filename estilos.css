@@ -1,0 +1,129 @@
+#div_grafico_tipo_1, #div_grafico_tipo_2{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-right: 50px;    
+    margin-left: 50px;         
+    margin-top: 50px;             
+    margin-bottom: 50px;             
+  }
+  
+  #contenedor-header{
+    background-color: aliceblue;
+  }
+  
+  #contenedor-footer{
+    background-color: gainsboro;
+  }
+  
+  .bar {
+    width: 6px;
+    font-size: 16px;
+    font-weight: bolder;
+  }
+  
+  .bar.bar-mousehover {
+    z-index: 1000;
+    color: black;
+    position: relative;
+  }
+  
+  .bar.bar-mousehover .tooltip{
+    position: absolute;
+    z-index: 1000;
+    color: black;
+    padding: 10px;
+    top: -70px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border: solid;
+    border-width: 1px;
+    border-color: #FEFEFE;
+    border-radius: 10px;
+    background-color: white;
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+  }
+  
+  .bar.bar-mouseout {
+    z-index: 0;
+    color: transparent;
+    position: unset;
+  }
+  
+  .eje {
+    fill: none;
+    stroke: #000;
+  } 
+  
+  .eje2 {
+    fill: none;
+    stroke: #000;
+  } 
+  
+  .tabla {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .tabla li {
+    list-style: none;
+  }
+  
+  /* Style the lines by removing the fill and applying a stroke */
+  .line-entrada {
+    fill: none;
+    stroke: #ffab00;
+    stroke-width: 3;
+  }
+  
+  .line-salida {
+    fill: none;
+    stroke: #8899FF;
+    stroke-width: 3;
+  }
+  
+  .overlay {
+  fill: none;
+  pointer-events: all;
+  }
+  
+  /* Style the dots by assigning a fill and stroke */
+  .dot {
+    fill: #ffab00;
+    stroke: #fff;
+  }
+  
+  .dot-salida {
+    fill: #8899FF;
+    stroke: #fff;
+  }
+  
+  .focus circle {
+    fill: none;
+    stroke: steelblue;
+  }
+  
+  .tooltip-area-entrada {
+    background-color: #ffab00;
+    width: 120px;
+    text-align: center;
+    padding: 6px;
+    color: white;
+    border-radius: 6px;
+  }
+  
+  .tooltip-area-salida {
+    background-color: #8899FF;
+    width: 120px;
+    text-align: center;
+    padding: 6px;
+    color: white;
+    border-radius: 6px;
+  }
+  
+  .tooltip-area-entrada__text, .tooltip-area-salida__text {
+    display: flex;
+    flex-direction: column;
+  }
+  

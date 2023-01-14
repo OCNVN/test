@@ -21,7 +21,7 @@ d3.json(
 
     // Escalador lineal para eje Y
     var yScale = d3.scaleLinear()
-    .domain([0, 100]) // Ranking
+    .domain([0, d3.max(data, (d) => d.ranking)]) // Ranking
     .range([height, 0]);
 
     // Crear eje X

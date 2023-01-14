@@ -1,4 +1,9 @@
 [
     {"alumno":"Pedro","nota":9.09,"ranking":10},
-    {"alumno":"Juan","nota":4,"ranking":30}
+    {"alumno":"Juan","nota":4,"ranking":30},
+    {"alumno":"Monica","nota":1.3,"ranking":80},
+    {"alumno":"Esteban","nota":0.5,"ranking":24},
+    {"alumno":"Julio","nota":10,"ranking":99},
+    {"alumno":"Maria","nota":5.6,"ranking":88},
+    {"alumno":"Miriam","nota":7.89,"ranking":12}
 ]
